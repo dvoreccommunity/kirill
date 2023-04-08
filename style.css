@@ -1,30 +1,19 @@
 body{
-  text-align: center;
-  color: white;
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(to right, black, rgb(4, 139, 208));
+	text-align: center;
+	color: white;
+	background: linear-gradient(to right ,black, rgb(246, 125, 255));
 }
 div{
-  margin-top: 100px;
-  margin-left:40px ;
-  margin-right: 40px;
-
-  width: 30%;
-  border: 5px solid white;
-  border-radius: 40px;
-  box-shadow: 0 0 20px white;
-  transition-duration: 1s;
-  transition: 2s;
+	margin-top: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 20%;
+	height: 600px;
+	border: 1px solid black;
+	border-radius: 20px;
+	box-shadow: 0 0 20px skyblue;
+	float: left;
 }
-p{
-  text-shadow: 0 0 10px white;
-  background-color: black;
-}
-div:hover{
-  border-radius: 20px;
-  font-size: 20px;
-  background-color: darkgreen;
-  text-shadow: 0 0 10px white;
-  transform:rotate(-360deg) ;
+img{
+	width: 80%;
 }
